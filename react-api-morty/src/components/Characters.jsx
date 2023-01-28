@@ -1,7 +1,11 @@
 
-function Character() {
+function Character({character}) {
+    // console.log(character);
     return(
-        <div>Character</div>
+        <div>
+            <h2>{character.name}</h2>
+            <img src={character.image} alt={character.name} />
+        </div>
     )
 }
 
