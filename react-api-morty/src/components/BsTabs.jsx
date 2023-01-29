@@ -1,8 +1,10 @@
+/** COMPONENTE DONDE SE CREAN LAS NAV TABS Y 
+ * RENDERIZAMOS LOS DEMAS COMPONENTES DE RICK Y MORTY
+ * Y LA INFORMACION DE LOS DINOSAURIOS **/
+
 import React, { useState } from 'react';
 import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';
-
-// import CharacterList  from "./components/CharacterList";
 import CharacterList from "./CharacterList"
 import DinosaursList from "./dinosaursList"
 

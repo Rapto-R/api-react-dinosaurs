@@ -1,5 +1,4 @@
 
-// import CharacterList  from "./components/CharacterList";
 import ControlledTabsExample from "./components/BsTabs";
 
 function App(){

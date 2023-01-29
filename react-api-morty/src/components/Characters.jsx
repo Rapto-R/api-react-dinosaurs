@@ -3,7 +3,7 @@
 function Character({character}) {
     return(
 
-        <div className="card w-10">
+        <div className="card">
                 <img src={character.image} className="card-img-top" alt={character.name} />
             <div className="card-body">
                 <h5 className="card-title text-dark text-center">{character.name}</h5>

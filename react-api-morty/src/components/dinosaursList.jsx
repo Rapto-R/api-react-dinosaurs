@@ -32,16 +32,16 @@ function DinosaursList() {
                                     <Dna  height="100" width="100" color="red" arialLabel="Cargando..."/> 
                                 </div>
                             :
-                        <div>
+                        <div className="row">
                             {dinosaurs.map(dinosaurs => {
                                 return(
-                                    <div>
+                                    <div className="col-md-4 p-2" key={dinosaurs.Name}>
                                         <Dinosaurs dinosaurs={dinosaurs}/>
                                     </div>
                                     )
                                 })
                             }
-                </div>
+                        </div>
             }
                 
            </div>
