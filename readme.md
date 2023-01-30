@@ -1,7 +1,6 @@
 /** Created & author by Rair plata **/
 
-# Practica de react y vite
-
+# Demo con react, vite y bootstrap 5
 
 ## Descripción
 Esta es una practica para el consumo de dos API's en react vite con bootstrap
